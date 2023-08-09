@@ -5,11 +5,14 @@ import 'package:taskmanager/app/app.locator.dart';
 import 'package:taskmanager/app/app.router.dart';
 import 'package:stacked_services/stacked_services.dart';
 
+import 'app/app.snackbars.dart';
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await setupLocator();
   setupDialogUi();
   setupBottomSheetUi();
+  setupSnackbar();
   runApp(const MainApp());
 }
 
