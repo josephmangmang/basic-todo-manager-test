@@ -2,6 +2,13 @@
 
 A new Flutter project.
 
+Minimal architecture for small-mid scale applications
+
+#### 🏛️ Architecture
+MVVM architecture
+
+![layer](images/image01.png)
+
 Setup:
 1. Clone the repo
 2. Run `flutter pub get`
